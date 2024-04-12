@@ -1,0 +1,130 @@
+body {
+    background-image: url("images/hero-banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    background-blend-mode: overlay;
+    display: grid;
+    place-items: center;
+    min-height: 600px;
+    padding-top: 125px;
+    font-family: 'DM Sans', sans-serif; /* Применяем шрифт DM Sans */
+}
+
+
+.hero-title {
+    color: white; /* Или цвет, который вам нужен */
+    font-size: 48px; /* Изменяем размер заголовка */
+    margin-bottom: 20px; /* Добавляем отступ между заголовком и кнопками */
+    margin-left: -80px; /* Отрицательное значение для смещения заголовка влево */
+    margin-right: auto; /* Располагаем заголовок по центру по горизонтали */
+    margin-top: 0; /* Убираем верхний отступ заголовка */
+    text-align: center; /* Центрируем текст заголовка */
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%; /* Ширина таблицы */
+    max-width: 800px; /* Максимальная ширина таблицы */
+    margin: 0 auto; /* Центрирование таблицы по горизонтали */
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #4b3726;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #8d6244;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+tr {
+    background-color: #fff; /* Установка белого цвета для всех строк */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Центрируем элементы по горизонтали */
+    margin-bottom: 20px; /* Расстояние между кнопками и таблицей */
+}
+
+.add-button, .delete-button, .button {
+    font-size: 18px; /* Увеличение размера шрифта */
+    padding: 12px 24px; /* Увеличение отступов для более широких кнопок */
+    margin: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px; /* Форма овала */
+}
+
+.add-button, .delete-button {
+    background: var(--bright-navy-blue);
+    border-color: var(--bright-navy-blue);
+    margin: 0 5px; /* Небольшое расстояние между кнопками */
+}
+
+.delete-button {
+    background-color: #4b3726;
+    color: #fff;
+    margin-left: auto; /* Помещает кнопку удаления справа по центру */
+}
+
+.add-button {
+    background-color: #4b3726;
+    color: #fff;
+    margin-right: auto; /* Помещает кнопку добавления слева по центру */
+}
+
+.button {
+    background-color: #4b3726; /* Цвет для кнопки сохранения */
+    color: #fff;
+}
+
+.add-button:hover, .delete-button:hover, .button:hover {
+    background-color: #c2a081;
+}
+
+.delete-button:hover {
+    background-color: #c2a081;
+}
+
+.button:hover {
+    background-color: #c2a081; /* Цвет при наведении для кнопки сохранения */
+}
+
+.icon-title-container {
+    display: flex; /* Устанавливаем flex-контейнер */
+    align-items: center; /* Центрируем элементы по вертикали */
+    margin-left: 20px; /* Отступ слева */
+}
+
+.fa-home {
+    position: relative;
+    left: -500px; /* Отрицательное значение для смещения влево */
+}
+
+.payment-button {
+    font-size: 18px; /* Увеличение размера шрифта */
+    padding: 12px 24px; /* Увеличение отступов для более широких кнопок */
+    margin: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    margin: 0 5px;
+}
+
+.payment-button:hover {
+    background-color: #c2a081; /* Цвет при наведении для кнопки сохранения */
+}
+
+
+
+
+
